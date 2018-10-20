@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Pulley'
-  s.version          = '2.6.2'
+  s.version          = '2.5.0'
   s.summary          = 'A library to imitate the iOS 10 Maps UI.'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 A library to provide a drawer controller that can imitate the drawer UI in iOS 10's Maps app.
                        DESC
 
-  s.homepage         = 'https://github.com/52inc/Pulley'
+  s.homepage         = 'https://github.com/mihailsalari/Pulley'
   s.screenshots     = 'https://camo.githubusercontent.com/ffa1a97f8e152bb25f69970a08aa2e827fe54ce0/687474703a2f2f692e696d6775722e636f6d2f35616b456a69542e676966'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Brendan Lee' => 'brendan@52inc.com' }
-  s.source           = { :git => 'https://github.com/52inc/Pulley.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/mihailsalari/Pulley.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/52_inc'
 
   s.ios.deployment_target = '9.0'
